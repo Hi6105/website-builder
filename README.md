@@ -10,19 +10,18 @@ The script will also verify the presence of Docker and Docker Compose on your sy
 To execute this Bash script, ensure that your system has Bash installed.<br />
 Ensure that Port 80 is available on your system.
 
-
 ## Installation
 
 In order to install and run this script clone the folder in your system, just run
 
 ```bash
-git clone git@github.com:tkvarun35/WP-project.git
+git clone https://github.com/Hi6105/website-builder.git
 ```
 
 go to the cloned directory
 
 ```bash
-cd WP-project/
+cd website-builder/
 ```
 
 Run the script
@@ -30,6 +29,7 @@ Run the script
 ```bash
 bash script.sh
 ```
+
 Ensure that Port 80 is available on your system.
 Otherwise, it will exit.
 
@@ -51,6 +51,5 @@ You'll also get to see options for subcommands (enable/disable/delete/exit) to i
 **disable**: It will disable the site for you.<br />
 **delete**: It will delete all related containers, images, volumes, and docker-compose files.<br />
 **exit**: It will simply exit you out of the script. But the container will still be running.
-
 
 # website-builder
